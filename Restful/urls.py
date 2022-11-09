@@ -17,8 +17,8 @@ import imp
 from django.contrib import admin
 from django.urls import path,include
 
-from G_eight.views import AuthorView,AuthorDtailView 
-from G_eight.views import PublishView,PublishDtailView ,PublishView_set
+from RESTful_test.views import AuthorView,AuthorDtailView 
+from RESTful_test.views import PublishView,PublishDtailView ,PublishView_set
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("stu/",include("rest.urls")),
